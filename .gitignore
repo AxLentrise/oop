@@ -11,7 +11,7 @@
 .mtj.tmp/
 
 # Folders to Ignore
-dir_to_ignore/Bibliografia
+/Bibliografia/
 
 # Package Files #
 *.jar
