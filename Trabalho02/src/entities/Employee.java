@@ -2,10 +2,10 @@ package entities;
 
 public class Employee {
 	
-	protected static final StringBuilder sb = new StringBuilder();
-	
 	protected String name;
 	protected Double salary;
+	
+	protected static final StringBuilder sb = new StringBuilder();
 	
 	public Employee() {}
 	

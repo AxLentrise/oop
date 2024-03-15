@@ -2,10 +2,10 @@ package entities;
 
 public class Animal2 {
 	
-	protected static final StringBuilder sb =  new StringBuilder(); 
-	
 	protected String name;
 	protected Integer age;
+	
+	protected static final StringBuilder sb =  new StringBuilder(); 
 	
 	public Animal2() {}
 	
