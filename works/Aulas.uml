@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>C:/Users/diogo/Documents/Faculdade/3-semestre/oop/works/Aulas</OriginalElement>
+  <nodes>
+    <node x="-42.0" y="-75.5">Main</node>
+    <node x="226.0" y="-219.0">Test</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="Main" target="Test" relationship="CREATE">
+      <point x="103.5" y="0.0" />
+      <point x="-143.5" y="0.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Compact" zoom="1.2782608695652173" showDependencies="true" x="245.5" y="-20.0" />
+  <SelectedNodes>
+    <node>Test</node>
+    <node>Main</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Constructors</Category>
+    <Category>Fields</Category>
+    <Category>Inner Classes</Category>
+    <Category>Methods</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
