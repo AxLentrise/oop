@@ -1,8 +1,8 @@
 package entities.vehicle;
 
-import services.AccelerateService;
+import services.VehicleService;
 
-public class Vehicle implements AccelerateService {
+public class Vehicle implements VehicleService {
 	
 	private String brand;
 	private String model;
