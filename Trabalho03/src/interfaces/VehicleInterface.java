@@ -1,6 +1,6 @@
-package services;
+package interfaces;
 
-public interface VehicleService {
+public interface VehicleInterface {
 	
 	// Método acelerar, estou fazendo em inglês por preferência pessoal
 	Double speedUp();

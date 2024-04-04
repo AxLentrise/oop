@@ -1,8 +1,8 @@
 package entities.shape;
 
-import services.ShapeService;
+import interfaces.ShapeInterface;
 
-public class Shape implements ShapeService {
+public class Shape implements ShapeInterface {
 	
 	public Double calcArea() {
 		return null;

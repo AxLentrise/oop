@@ -1,8 +1,8 @@
 package entities.vehicle;
 
-import services.VehicleService;
+import interfaces.VehicleInterface;
 
-public class Vehicle implements VehicleService {
+public class Vehicle implements VehicleInterface {
 	
 	private String brand;
 	private String model;

@@ -1,8 +1,8 @@
 package entities.animal;
 
-import services.AnimalService;
+import interfaces.AnimalInterface;
 
-public class Animal implements AnimalService {
+public class Animal implements AnimalInterface {
 	
 	public Animal() {}
 	

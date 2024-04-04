@@ -1,8 +1,8 @@
 package entities.employee;
 
-import services.EmployeeService;
+import interfaces.EmployeeInterface;
 
-public class Employee implements EmployeeService {
+public class Employee implements EmployeeInterface {
 	
 	private static Double BONUS_CONST = 0.1;
 	

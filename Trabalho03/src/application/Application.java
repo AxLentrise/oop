@@ -1,10 +1,15 @@
 package application;
 
 import entities.animal.Animal;
+import entities.animal.Bird;
+import entities.animal.Cat;
 import entities.animal.Dog;
 import entities.employee.Developer;
 import entities.employee.Employee;
 import entities.employee.Manager;
+import entities.product.Electronic;
+import entities.product.Food;
+import entities.product.Product;
 import entities.shape.Circle;
 import entities.shape.Rectangle;
 import entities.shape.Shape;
@@ -37,9 +42,9 @@ public class Application {
 		Vehicle truck = new Truck("Volvo", "FH16");
 		System.out.printf("\nVelocidade média do %s %s:\n", truck.getBrand(), truck.getModel());
 		for(int i = 0; i <= 12; i++) {
-			System.out.printf("Gear: %d — ", truck.getGear());    // Obtem a marcha atual
-			System.out.printf("Speed: %.1f\n", truck.speedUp());  // Mostra a velocidade média para a marcha		
-			truck.gearUp();										  // Aumenta a marcha em 1 se for possível
+			System.out.printf("Gear: %d — ", truck.getGear());    		// Obtem a marcha atual
+			System.out.printf("Speed: %.1f\n", truck.speedUp());  		// Mostra a velocidade média para a marcha		
+			truck.gearUp();										  		// Aumenta a marcha em 1 se for possível
 		}
 		
 		// Demais métodos foram testados, mas não fazem sentido para a proposta do exercício
@@ -70,7 +75,26 @@ public class Application {
 		System.out.printf("\nName: %s - Salary: %.2f - Ocuppation: Developer\n", developer.getName(), developer.getSalary());
 		System.out.printf("Paycheck with bonus: %.2f\n", developer.calcBonus());
 		
-		System.out.println();
+		System.out.println("Dog:");
 		Animal dog = new Dog();
+		System.out.println();
+		System.out.println("Cat:");
+		Animal cat = new Cat();
+		System.out.println();
+		System.out.println("Bird:");
+		Animal bird = new Bird();
+		
+		System.out.println();
+		System.out.println();
+		Product laptop = new Electronic("Dell XPS", 1000.00);
+		System.out.printf("Product name: %s | Price: %.2f\n", laptop.getName(), laptop.getPrice());
+		System.out.printf("Discount of 15%% in the value of %.2f\n", laptop.calcDiscount(0.15));
+		System.out.printf("Price with the discount: %.2f", laptop.getPrice()-laptop.calcDiscount(15.0));
+		
+		Product pizza = new Food("Pizza", 20.00);
+		System.out.printf("Product name: %s | Price: %.2f\n", pizza.getName(), pizza.getPrice());
+		System.out.printf("Discount of 30%% in the value of %.2f\n", pizza.calcDiscount(0.30));
+		System.out.printf("Price with the discount: %.2f", pizza.getPrice()-pizza.calcDiscount(30.0));
+				
 	}
 }
