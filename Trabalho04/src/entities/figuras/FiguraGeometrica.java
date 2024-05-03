@@ -1,4 +1,4 @@
-package entities;
+package entities.figuras;
 
 public abstract class FiguraGeometrica {
 	

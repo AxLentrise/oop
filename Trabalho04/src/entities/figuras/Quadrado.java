@@ -1,11 +1,10 @@
-package entities;
+package entities.figuras;
 
 public class Quadrado extends FiguraGeometrica {
 
 	private Double sides;
 	
 	public Quadrado(Double sides) {
-		super();
 		this.sides = sides;
 	}
 

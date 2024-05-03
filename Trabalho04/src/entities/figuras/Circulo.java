@@ -1,11 +1,10 @@
-package entities;
+package entities.figuras;
 
 public class Circulo extends FiguraGeometrica {
 
 	private Double raio;
 
 	public Circulo(Double raio) {
-		super();
 		this.raio = raio;
 	}
 
