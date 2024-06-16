@@ -10,4 +10,6 @@
     <fullyQualifiedTypeName name="entities.OperacaoMatematicaInterface"/>
     <fullyQualifiedTypeName name="entities.OperacaoMatematica"/>
     <fullyQualifiedTypeName name="entities.Empregado"/>
+    <fullyQualifiedTypeName name="javax.swing.SwingUtilities"/>
+    <fullyQualifiedTypeName name="java.lang.Runnable"/>
 </qualifiedTypeNameHistroy>
