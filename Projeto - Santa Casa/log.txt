@@ -1,0 +1,35 @@
+[032mSystem input: 1[0m
+[032mSystem input: 1[0m
+[032mSystem input[user]: Nome: Anônimo | CPF: 0 | Idade: 0[0m
+[032mSystem input: 0[0m
+[032mSystem input[nome]: Diogo[0m
+[032mSystem input[cpf]: 44728732819[0m
+[031mjava.lang.NumberFormatException: For input string: "l"[0m
+[032mSystem input[nome]: Diogo[0m
+[032mSystem input[cpf]: 44728732819[0m
+[032mSystem input[idade]: 21[0m
+[032mSystem New User: Nome: Diogo | CPF: 44728732819 | Idade: 21[0m
+[032mSystem input: 1[0m
+[032mSystem input[user]: Nome: Anônimo | CPF: 0 | Idade: 0[0m
+[032mSystem input: 1[0m
+[032mSystem input[user]: Nome: Anônimo | CPF: 0 | Idade: 0[0m
+[032mSystem input: 1[0m
+[032mSystem input[user]: Nome: Anônimo | CPF: 0 | Idade: 0[0m
+[032mSystem Finish[0m
+[032mSystem input: 0[0m
+[032mSystem input[nome]: Diogo Tiago Bertoldo[0m
+[032mSystem input[cpf]: 44728732819[0m
+[032mSystem input[idade]: 22[0m
+[032mSystem New User: Nome: Diogo Tiago Bertoldo | CPF: 44728732819 | Idade: 22[0m
+[032mSystem input: 1[0m
+[032mSystem input: EXCELENTE[0m
+[032mSystem input: 1[0m
+[032mSystem input: EXCELENTE[0m
+[032mSystem input: 2[0m
+[032mSystem input: SATISFATORIO[0m
+[032mSystem input: 3[0m
+[032mSystem input: RAZOAVEL[0m
+[032mSystem input: 2[0m
+[032mSystem input: SATISFATORIO[0m
+[031mSystem [new Answer]:Nome: Diogo Tiago BertoldoCPF: 44728732819   Idade: 22 
+Pergunta #1 - Resposta: EXCELENTEPergunta #2 - Resposta: EXCELENTEPergunta #3 - Resposta: SATISFATORIOPergunta #4 - Resposta: RAZOAVELPergunta #5 - Resposta: SATISFATORIO[0m
