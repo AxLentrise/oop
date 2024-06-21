@@ -15,7 +15,7 @@ import entities.User;
 public class Application {
 	
 	static final String PATH = "log.txt";
-	static final boolean WRITE_LOG = true;
+	static final boolean WRITE_LOG = false;
 	
 	private static int CONTROL = 5;
 	private static Integer input = -1;
@@ -248,6 +248,30 @@ public class Application {
 			
 			CONTROL--;
 		} while(CONTROL > 0);
+		
+		for(Answer answer : answers) {
+			int n = 1;
+			System.out.println();
+			System.out.println(answer.getUser());
+			if(WRITE_LOG) updateLog(answer.getUser().toString(), false);
+			if(WRITE_LOG) updateLog("Respostas da Pessoa:", false);
+			System.out.println("Respostas da Pessoa:");
+			for(Choices choice : answer.getChoices()) {
+				System.out.printf("\nQuestão %d: %s", n, choice);
+				if(WRITE_LOG) updateLog(String.format("Questão %d: %s", n, choice), false);
+				n++;
+			}
+			
+			System.out.printf("\n\nNota Final: %2.1f", answer.getFinalResult());
+			System.out.printf("\nClassificação Final: %s", answer.getFinalClassification());
+			
+			if(WRITE_LOG) {
+				updateLog(String.format("Nota Final: %2.1f", answer.getFinalResult()), false);
+				updateLog(String.format("Classificação Final: %s", answer.getFinalClassification()), false);
+			}
+			
+			System.out.println();
+		}
 		
 		if(WRITE_LOG) updateLog("System Finish", false);
 		scan.close();
